@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-container {
+  display: flex;
+  postion: fixed;
+  height: 16.66%;
+}
