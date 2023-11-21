@@ -17,8 +17,10 @@
     "strictPropertyInitialization": false,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": "./src",
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["./src", "./vite.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]

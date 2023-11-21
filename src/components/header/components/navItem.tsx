@@ -1,7 +1,6 @@
 import { Typography } from '@material-tailwind/react';
 import { ReactElement } from 'react';
-import { Link } from 'react-router-dom';
-
+import { NavButton } from '@/components/atoms/linkButton/navButton';
 export interface NavItemProps {
   icon?: ReactElement;
   label: string;
@@ -10,15 +9,14 @@ export interface NavItemProps {
 
 export const NavItem = ({ icon, label, link }: NavItemProps) => {
   return (
-    <Link to={link}>
-      <Typography
-        variant='small'
-        as='li'
-        className='flex items-center gap-1.5 py-2 px-5 font-normal  hover:bg-tst-primary-slate-dark'
-      >
+    <NavButton
+      to={link}
+      className='flex items-center gap-1.5 py-2 px-5 font-normal hover:bg-tst-primary-slate-dark'
+    >
+      <Typography variant='small' as='li'>
         {icon}
         {label}
       </Typography>
-    </Link>
+    </NavButton>
   );
 };

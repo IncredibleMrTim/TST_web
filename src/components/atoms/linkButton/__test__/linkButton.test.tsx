@@ -1,4 +1,4 @@
-import { LinkButton } from '../linkButton';
+import { LinkButton } from '../navButton';
 import { render, screen } from '@testing-library/react';
 
 vi.mock('react-router-dom', () => ({

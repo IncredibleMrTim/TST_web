@@ -1,5 +1,5 @@
 import { Navbar } from '@material-tailwind/react';
-import { NavItem } from './components/navItem';
+import { NavItem } from '@/components/header/components/navItem';
 import tstLogo from '/tstLogo.svg';
 export const Header = () => {
   const navList = () => (
