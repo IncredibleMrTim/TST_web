@@ -6,7 +6,7 @@ import { renderWithRouter } from '@/test/utils';
 describe('NavItem', () => {
   const defaultProps: NavItemProps = {
     label: 'MENU_ITEM',
-    link: '/',
+    to: '/',
   };
   const setup = (props: NavItemProps = defaultProps) =>
     renderWithRouter(<NavItem {...props} />, {});
