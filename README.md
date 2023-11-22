@@ -1,4 +1,26 @@
-# Tim Smart
+# Tim Smart Technology Company Website
+
+This site is designed to display my work history, skills and companies i have worked for over the years. The information found here is not an exhaustive list bot does offer an overview of what i can offer to potential employers.
+
+### Tech Stack
+
+- Vite
+- React
+- TailwindCSS
+- NPM
+
+### Install Guide
+
+- `npm install`
+- `npm run dev`
+
+### Testing
+
+- `npm run test`
+
+---
+
+# Resume
 
 ## SENIOR REACT FRONTEND DEVELOPER
 
