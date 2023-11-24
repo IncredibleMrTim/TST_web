@@ -9,6 +9,7 @@ export type CarouselImage = {
 
 export const Carousel = ({ images }: CarouselImageProps) => {
   console.log(images);
+
   return (
     <div className="px-16">
       <div className="flex flex-row overflow-scroll w-full no-scrollbar scroll-smooth scrolling-auto gap-8">

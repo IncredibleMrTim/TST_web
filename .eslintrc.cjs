@@ -15,9 +15,10 @@ module.exports = {
     'testing-library',
   ],
   rules: {
+    'no-console': 'off',
     'react-refresh/only-export-components': [
       'warn',
-      { allowConstantExport: true, 'no-console': true },
+      { allowConstantExport: true },
     ],
   },
 };
