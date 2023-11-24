@@ -6,6 +6,7 @@ describe("Carousel", () => {
     const mockCarouselImages: CarouselImage[] = [
       { alt: "mock-alt-text", path: "mock-path" },
     ];
+
     render(<Carousel images={mockCarouselImages} />);
 
     const imageElement = screen.getByAltText(mockCarouselImages[0].alt);
