@@ -10,6 +10,10 @@ e.g. Added a new component for loading "foo". -->
 
 e.g. Why is this needed -->
 
+### Screenshots/Videos (if applicable)
+
+<!-- Share a screenshot or video of the changes. -->
+
 ### Related ticket/issue (if applicable)
 
 <!-- Include a link to the related GitHub issue. -->
