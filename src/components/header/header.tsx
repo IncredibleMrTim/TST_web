@@ -1,6 +1,7 @@
 import { Navbar } from '@material-tailwind/react';
 import { NavItem } from '@/components/header/components/navItem';
 import tstLogo from '/tstLogo.svg';
+import { Carousel } from '../carousel/carousel';
 export const Header = () => {
   const navList = () => (
     <ul className='mb-4 mt-2 flex flex-col gap-3 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-8'>
@@ -11,7 +12,7 @@ export const Header = () => {
   );
 
   return (
-    <div className='w-full h-1/5'>
+    <div className='w-full h-1/5 flax flex-row'>
       <div className='flex justify-center items-center h-full py-5'>
         <img src={tstLogo} className='h-3/4' />
       </div>
@@ -22,6 +23,9 @@ export const Header = () => {
         >
           {navList()}
         </Navbar>
+      </div>
+      <div className='mt-8'>
+        <Carousel />
       </div>
     </div>
   );
