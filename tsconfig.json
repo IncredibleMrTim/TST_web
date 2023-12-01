@@ -10,7 +10,7 @@
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["./src", "./vite.config.ts"],
+  "include": ["./src/**.ts", "./vite.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
