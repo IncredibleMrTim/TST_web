@@ -5,7 +5,7 @@ import { ReactElement } from "react";
 
 export const renderWithRouter = (ui: ReactElement, { route = "/" } = {}) => {
   window.history.pushState({}, "Test page", route);
-  //test
+  // test
   return {
     user: userEvent.setup(),
     ...render(ui, { wrapper: BrowserRouter }),
