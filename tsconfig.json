@@ -10,8 +10,7 @@
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "CommonJS",
-    "moduleResolution": "Node",
+
     "resolveJsonModule": true,
     "isolatedModules": true,
     "strictPropertyInitialization": false,
@@ -20,8 +19,10 @@
     "types": ["vitest/globals"],
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler"
   },
-  "include": ["./src/**.ts", "./vite.config.ts"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["./src/**.ts", "./vite.config.ts"]
 }

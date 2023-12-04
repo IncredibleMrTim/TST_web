@@ -1,8 +1,8 @@
-import { Header } from '@/components/header/header';
+import { Header } from "@/components/Header/Header";
 
 function App() {
   return (
-    <div className='h-full bg-tst-primary-white'>
+    <div className="h-full bg-tst-primary-white">
       <Header />
     </div>
   );
