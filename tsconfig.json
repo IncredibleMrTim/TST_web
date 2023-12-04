@@ -1,27 +1,18 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "useDefineForClassFields": true,
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "allowJs": false,
-    "skipLibCheck": true,
+    "module": "commonjs",
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": false,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "CommonJS",
-    "moduleResolution": "Node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "strictPropertyInitialization": false,
-    "noEmit": true,
-    "jsx": "react-jsx",
-    "types": ["vitest/globals"],
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      "*": ["node_modules/*"]
+    },
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
   },
-  "include": ["./src/**.ts", "./vite.config.ts"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src/**/*"]
 }
