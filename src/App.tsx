@@ -1,9 +1,15 @@
-import { Header } from "@/components/Header/Header";
+import { Header } from "@/components/header/header";
+import { Root } from "./pages/root/root";
 
 function App() {
   return (
-    <div className="h-full bg-tst-primary-white">
-      <Header />
+    <div>
+      <div className="header-container">
+        <Header />
+      </div>
+      <div>
+        <Root />
+      </div>
     </div>
   );
 }

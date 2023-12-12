@@ -10,6 +10,7 @@ export default {
       'tst-primary-slate-dark': '#085a72',
       'tst-primary-slate-light': '#0f9bcf',
       'tst-primary-white': '#fff',
+      'tst-primary-text-gray': '#626262',
     },
     extend: {},
   },
