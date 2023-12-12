@@ -1,5 +1,6 @@
 import { Header } from "@/components/header/header";
-import { Root } from "./pages/root/root";
+
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         <Header />
       </div>
       <div>
-        <Root />
+        <Outlet />
       </div>
     </div>
   );

@@ -5,9 +5,9 @@ import tstLogo from "/tstLogo.svg";
 export const Header = () => {
   const navList = () => (
     <ul className="mb-4 mt-2 flex flex-col gap-3 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-8">
-      <NavItem label="Home" to="/cats" />
-      <NavItem label="About" to="/" />
-      <NavItem label="Contact" to="/" />
+      <NavItem label="Home" to="/" />
+      <NavItem label="About" to="/about" />
+      <NavItem label="Contact" to="/contact" />
     </ul>
   );
 
