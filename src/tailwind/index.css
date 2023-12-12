@@ -24,7 +24,13 @@ body {
   scrollbar-width: none; /* Firefox */
 }
 
-@font-face {
-  font-family: 'Roboto';
-  src: url('./fonts/Roboto-light.ttf');
+@layer base {
+  @font-face {
+    font-family: 'roboto-regular';
+    src: url('./fonts/Roboto-regular.ttf');
+  }
+  @font-face {
+    font-family: 'roboto-light';
+    src: url('./fonts/Roboto-Light.ttf');
+  }
 }

@@ -1,39 +1,41 @@
 import type { CarouselImage } from "./carousel";
-import lnLogo from "/lnLogo.svg";
-import onsLogo from "/onsLogo.svg";
-import proagricaLogo from "/proagricaLogo.svg";
-import santanderLogo from "/santanderLogo.svg";
-import webreeLogo from "/webreeLogo.svg";
-import coyoteLogo from "/coyoteLogo.svg";
-import mdrxLogo from "/mdrxLogo.svg";
+import {
+  logoCoyote,
+  logoLn,
+  logoMdrx,
+  logoOns,
+  logoProagrica,
+  logoSantander,
+  logoWebree,
+} from "@/assets/svg";
 
 export const carouselLogos: CarouselImage[] = [
   {
-    alt: "LexisNexis Risk Solutions Logo",
-    path: lnLogo,
-  },
-  {
-    alt: "Office of National Statistics Logo",
-    path: onsLogo,
-  },
-  {
-    alt: "Proagrica Logo",
-    path: proagricaLogo,
-  },
-  {
     alt: "Santander Auto Logo",
-    path: santanderLogo,
-  },
-  {
-    alt: "Webree Logo",
-    path: webreeLogo,
+    path: logoSantander,
   },
   {
     alt: "Coyote Software Logo",
-    path: coyoteLogo,
+    path: logoCoyote,
   },
   {
     alt: "MDRX Tech Logo",
-    path: mdrxLogo,
+    path: logoMdrx,
+  },
+  {
+    alt: "Office of National Statistics Logo",
+    path: logoOns,
+  },
+  {
+    alt: "LexisNexis Risk Solutions Logo",
+    path: logoLn,
+  },
+  {
+    alt: "Proagrica Logo",
+    path: logoProagrica,
+  },
+  {
+    alt: "Webree Logo",
+    path: logoWebree,
   },
 ];

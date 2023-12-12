@@ -1,0 +1,11 @@
+export { default as bannerTst } from "./banner_tst.svg";
+export { default as experience } from "./experience.svg";
+export { default as logoCoyote } from "./logo_coyote.svg";
+export { default as logoLn } from "./logo_ln.svg";
+export { default as logoMdrx } from "./logo_mdrx.svg";
+export { default as logoOns } from "./logo_ons.svg";
+export { default as logoProagrica } from "./logo_proagrica.svg";
+export { default as logoSantander } from "./logo_santander.svg";
+export { default as logoWebree } from "./logo_webree.svg";
+export { default as qualifications } from "./qualifications.svg";
+export { default as skills } from "./skills.svg";

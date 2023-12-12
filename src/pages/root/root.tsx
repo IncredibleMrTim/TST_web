@@ -1,7 +1,8 @@
 import { Carousel } from "@/components/carousel/carousel";
 import { carouselLogos } from "@/components/carousel/carouselLogos";
-import banner from "/tst-banner.svg";
+import { bannerTst } from "@/assets/svg";
 import { useTranslation } from "react-i18next";
+import { LinkSection } from "./components/linkSection/linkSection";
 
 export const Root = () => {
   const { t } = useTranslation();
@@ -12,12 +13,15 @@ export const Root = () => {
         <Carousel images={carouselLogos} />
       </div>
       <div className="w-full">
-        <img src={banner} className="w-full" />
+        <img src={bannerTst} className="w-full" />
       </div>
-      <div className="w-full px-48 mt-10 text-left">
+
+      <section className="w-full px-52 mt-10 text-left">
         <h1>{t("root.summary-title")}</h1>
         <p>{t("root.summary-paragraph-1")}</p>
-      </div>
+      </section>
+
+      <LinkSection />
     </div>
   );
 };
