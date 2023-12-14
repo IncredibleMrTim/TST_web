@@ -1,5 +1,6 @@
 @import './typography.css';
 @import './header.css';
+@import './pages/experience.css';
 
 @tailwind base;
 @tailwind components;
@@ -26,11 +27,11 @@ body {
 
 @layer base {
   @font-face {
-    font-family: 'roboto-regular';
+    font-family: 'font-roboto-regular';
     src: url('./fonts/Roboto-regular.ttf');
   }
   @font-face {
-    font-family: 'roboto-light';
+    font-family: 'font-roboto-light';
     src: url('./fonts/Roboto-Light.ttf');
   }
 }

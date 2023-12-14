@@ -17,8 +17,8 @@ export const Root = () => {
       </div>
 
       <section className="w-full px-52 mt-10 text-left">
-        <h1>{t("root.summary-title")}</h1>
-        <p>{t("root.summary-paragraph-1")}</p>
+        <h1>{t("pages.root.summary-title")}</h1>
+        <p>{t("pages.root.summary-paragraph-1")}</p>
       </section>
 
       <LinkSection />

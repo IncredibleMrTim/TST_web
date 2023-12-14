@@ -12,5 +12,5 @@ h2 {
 
 p {
   @apply !text-base text-tst-primary-text-gray;
-  font-family: 'roboto-light';
+  font-family: 'font-roboto-light';
 }

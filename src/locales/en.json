@@ -1,7 +1,14 @@
 {
-  "root": {
-    "summary-paragraph-1": "Experienced Front End web application developer with over 10 years working in the information technology and services industry. Skilled in JavaScript, React.js, React Native, CSS, Rest API’s and supporting technologies. Comfortable working in an Agile environment using BDD principles and working with both Jest and Cypress testing technologies. A strong and competent professional with a BSC(Hons) focused in Software EngineeringInternet Application Development from Southampton Solent University.",
-    "summary-title": "Frontend Software Engineer Consultant and Contractor"
+  "common": { "present": "Present", "unknown": "Unknown" },
+  "pages": {
+    "root": {
+      "summary-paragraph-1": "Experienced Front End web application developer with over 10 years working in the information technology and services industry. Skilled in JavaScript, React.js, React Native, CSS, Rest API’s and supporting technologies. Comfortable working in an Agile environment using BDD principles and working with both Jest and Cypress testing technologies. A strong and competent professional with a BSC(Hons) focused in Software EngineeringInternet Application Development from Southampton Solent University.",
+      "summary-title": "Frontend Software Engineer Consultant and Contractor"
+    },
+    "experience": {
+      "dateFromTo": "{{from}} to {{to}}",
+      "techStack": "Tech Stack"
+    }
   },
   "linkSection": {
     "experience-title": "Experience",

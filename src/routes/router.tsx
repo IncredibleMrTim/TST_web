@@ -6,8 +6,6 @@ import { Root } from "@/pages/root/root";
 import { Experience } from "@/pages/experience/experience";
 import { Skills } from "@/pages/skills/skills";
 import { Qualifications } from "@/pages/qualifications/qualifications";
-import { Contact } from "@/pages/contact/contact";
-import { About } from "@/pages/about/about";
 
 export const router = createBrowserRouter([
   {
@@ -29,14 +27,6 @@ export const router = createBrowserRouter([
       {
         path: "/qualifications",
         element: <Qualifications />,
-      },
-      {
-        path: "/about",
-        element: <About />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />,
       },
     ],
   },
