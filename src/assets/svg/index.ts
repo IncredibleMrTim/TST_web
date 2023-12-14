@@ -9,3 +9,4 @@ export { default as logoSantander } from "./logo_santander.svg";
 export { default as logoWebree } from "./logo_webree.svg";
 export { default as qualifications } from "./qualifications.svg";
 export { default as skills } from "./skills.svg";
+export { default as profile } from "./profile.svg";

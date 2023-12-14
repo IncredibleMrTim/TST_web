@@ -15,9 +15,13 @@ export default {
     colors: {
       'tst-primary-red': '#ff0000',
       'tst-primary-gray-dark': '#444',
+      'tst-primary-gray-light': '#CCC',
+      'tst-primary-beige-lighter': '#F9F9F9',
+      'tst-primary-beige': '#DAC0A3',
       'tst-primary-slate': '#0c80a1',
       'tst-primary-slate-dark': '#085a72',
       'tst-primary-slate-light': '#0f9bcf',
+      'tst-primary-slate-lighter': '#ADC4CE',
       'tst-primary-white': '#fff',
       'tst-primary-text-gray': '#626262',
     },

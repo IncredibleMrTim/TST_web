@@ -7,7 +7,8 @@
     },
     "experience": {
       "dateFromTo": "{{from}} to {{to}}",
-      "techStack": "Tech Stack"
+      "techStack": "Tech Stack",
+      "summary": "Experienced Lead/Senior Software Engineer with a demonstrated history of working in the information technology and services      industry. Skilled in ReactJS, JavaScript, Redux and supporting technologies within the Web, Front End and UI development echo system."
     }
   },
   "linkSection": {
