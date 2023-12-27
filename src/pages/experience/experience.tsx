@@ -1,4 +1,5 @@
 import { ExperienceCard } from "./components/experienceCard";
+import { PageWrapper } from "@/components/pageWrapper/pageWrapper";
 
 import { profile } from "@/assets/svg";
 import { useTranslation } from "react-i18next";
@@ -11,7 +12,7 @@ export const Experience = () => {
   );
 
   return (
-    <div className="mx-32 mt-10">
+    <PageWrapper>
       <div>
         <div className="bg-tst-primary-slate-lighter h-36 mb-14 rounded-t-xl px-6 pt-6 flex col">
           <img src={profile} className="rounded-xl h-40 " />
@@ -43,6 +44,6 @@ export const Experience = () => {
           );
         })}
       </div>
-    </div>
+    </PageWrapper>
   );
 };

@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import moment from "moment";
 
-export const ExperienceCard = ({ ...props }: TExperience) => {
+export const ExperienceCard = (props: TExperience) => {
   const { t } = useTranslation();
 
   const { title, description, fromDate, toDate, techStack, company, jobType } =
