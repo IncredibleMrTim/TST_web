@@ -1,9 +1,14 @@
 import { ExperienceCard } from "./components/experienceCard";
-import experienceData from "./data/experience.json";
+
 import { profile } from "@/assets/svg";
 import { useTranslation } from "react-i18next";
+import { useApi } from "@/hooks/useApi";
+
 export const Experience = () => {
   const { t } = useTranslation();
+  const { data } = useApi<TExperience[]>(
+    "http://localhost:9000/db/experience.json",
+  );
 
   return (
     <div className="mx-32 mt-10">
@@ -16,10 +21,18 @@ export const Experience = () => {
         </div>
       </div>
       <div className="px-24">
-        {experienceData.map((experience: TExperience) => {
+        {data?.map((experience: TExperience, i) => {
           return (
-            <div key={experience.title}>
+            <div
+              key={experience.title}
+              className={`${
+                data.length - 1 > i &&
+                "border-b-2 border-tst-primary-gray-dark/10 pb-5"
+              }`}
+            >
               <ExperienceCard
+                company={experience.company}
+                jobType={experience.jobType}
                 title={experience.title}
                 fromDate={experience.fromDate}
                 toDate={experience.toDate}

@@ -4,12 +4,16 @@ import moment from "moment";
 export const ExperienceCard = ({ ...props }: TExperience) => {
   const { t } = useTranslation();
 
-  const { title, description, fromDate, toDate, techStack } = props;
+  const { title, description, fromDate, toDate, techStack, company, jobType } =
+    props;
 
   return (
     <div>
-      <h2 className="text">{title}</h2>
-      <p className="italic mb-8">
+      <h2 className="text pb-0">
+        {title} - {company}
+      </h2>
+
+      <p className="italic mb-8 !text-sm">
         {t("pages.experience.dateFromTo", {
           from: moment(fromDate).isValid()
             ? moment(fromDate).format("MMM YY")
@@ -18,10 +22,11 @@ export const ExperienceCard = ({ ...props }: TExperience) => {
             ? moment(toDate).format("MMM YY")
             : t("common.present"),
         })}
+        {jobType && <span> ({jobType})</span>}
       </p>
       <p className="mb-8">{description}</p>
       <h3 className="text-left font-bold">{t("pages.experience.techStack")}</h3>
-      <p>
+      <p className="!text-sm">
         {Array.isArray(techStack) && techStack.toString().replace(/,/g, ", ")}
       </p>
     </div>

@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Senior Frontend UI Engineer",
+    "company": "Santander Auto",
+    "jobType": "Contract",
+    "fromDate": "July 2023",
+    "toDate": "November 2023",
+    "description": "As a member of the Customer team, my role primarily involved contributing to the development of new customer-oriented features and resolving customer-reported issues. During my tenure at Santander, I spearheaded the creation of a cutting-edge customer operations feature utilizing a tech stack comprising React, React Query, TypeScript, React Hook Forms, and Tailwind. This feature was designed to empower the service team in rectifying data validation errors originating from our in-house validation system, OCS.",
+    "techStack": [
+      "React",
+      "TypeScript",
+      "VITE",
+      "VITest",
+      "React Query",
+      "React-Hook-Forms",
+      "REST",
+      "Tailwind",
+      "Yarn",
+      "Agile"
+    ]
+  },
+  {
+    "title": "Lead Frontend UI Engineer",
+    "company": "Coyote Software",
+    "jobType": "Contract",
+    "fromDate": "June 2022",
+    "toDate": "July 2023",
+    "description": "As the Lead Frontend UI Engineer and ReactJS Engineer at Coyote Software, I assumed the responsibility of leading the team and maintaining/updating the current project while also facilitating the platform migration from AngularJS to ReactJS. ",
+    "techStack": [
+      "Leadership",
+      "Mentoring",
+      "React",
+      "TypeScript",
+      "Redux",
+      "MaterialUI",
+      "Styled-Components",
+      "Storybook",
+      "Jest",
+      "NPM",
+      "REST",
+      "Agile"
+    ]
+  },
+  {
+    "title": "Contract Senior Front End ReactJS Developer",
+    "company": "MDRxTech (Mishcon de Reya group)",
+    "jobType": "Contract",
+    "fromDate": "January 2022",
+    "toDate": "June 2022",
+    "description": "I was hired to complete the current CSX Carbon Capture project after the current developer left.  This was developed in ReactJs using TypeScript, Redux, AWS and Postgres.  As the project was still in an MVP state, my day-to-day work is working with the structure and implementation of the code to bring it to a production-ready application.  This has required a lot of refactoring as the MVP had been produced on a very short time scale.  Also, as MDRxTech was effectively a new part of the Mishcon group, I also had a part in consulting on processes such as agile and some architectural decisions.",
+    "techStack": [
+      "React",
+      "TypeScript",
+      "VITE",
+      "VITest",
+      "React Query",
+      "React-Hook-Forms",
+      "REST",
+      "Tailwind",
+      "Yarn",
+      "Agile"
+    ]
+  },
+  {
+    "title": "Senior Frontend Software Engineer",
+    "company": "LexisNexis Risk Solutions",
+    "jobType": "Permanent",
+    "fromDate": "August 2014",
+    "toDate": "November 2021",
+    "description": "Transitioned from C# to frontend development. Developed mobile telematics apps using React Native and web-based telematics portals using ReactJS. Created a standalone component library using Storybook for future front-end applications.",
+    "techStack": [
+      "React",
+      "React Native",
+      "AngularJs",
+      "C#",
+      "SQL",
+      "React-Context",
+      "MaterialUI",
+      "CSS",
+      "SASS",
+      "Styled-Components",
+      "Storybook",
+      "Jest",
+      "NPM",
+      "REST",
+      "Agile",
+      "Mentoring"
+    ]
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Proagrica (formerly DBT Ltd)",
+    "jobType": "Permanent",
+    "fromDate": "April 2012",
+    "toDate": "September 2014",
+    "description": "Worked on various technologies, including C#, VB.Net, MVC, and JQuery. Led projects, including Windows-based Smart Clients, Dashboards, microsites, and CRM and Asset Management web applications.",
+    "techStack": [
+      "React",
+      "JQuery",
+      "Windows Forms",
+      "SQL",
+      "C#",
+      "CSS",
+      "Jest",
+      "NPM",
+      "REST"
+    ]
+  },
+  {
+    "title": "Frontend Developer",
+    "company": "MAD Productions LTD",
+    "jobType": "Permanent",
+    "fromDate": "April 2011",
+    "toDate": "July 2012",
+    "description": "Helped in Developing E-Commerce web solutions and in-house CMS systems. Improved code performance and worked closely with management and clients.",
+    "techStack": [
+      "C#",
+      "JavaScript",
+      "JQuery",
+      "SQL",
+      "CSS",
+      "Jest",
+      "NPM",
+      "REST",
+      "Scrum"
+    ]
+  },
+  {
+    "title": "Junior Developer",
+    "company": "Webree Ltd",
+    "jobType": "Permanent",
+    "fromDate": "June 2009",
+    "toDate": "March 2011",
+    "description": "Designed and developed web-based systems integrated with the company's CRM/CMS. Worked on a long-term project to integrate systems into third-party software.",
+    "techStack": [
+      "C#",
+      "JavaScript",
+      "JQuery",
+      "SQL",
+      "CSS",
+      "Jest",
+      "NPM",
+      "REST"
+    ]
+  }
+]

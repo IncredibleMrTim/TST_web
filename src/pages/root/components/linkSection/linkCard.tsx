@@ -13,7 +13,7 @@ export const LinkCard = ({ ...props }: LinkCardProps) => {
 
   return (
     <div className="w-1/3">
-      <h2>{title}</h2>
+      <h3>{title}</h3>
       <div className="max-h-max mb-4">
         <img
           src={image}

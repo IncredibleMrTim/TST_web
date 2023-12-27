@@ -4,7 +4,8 @@ export default {
   content: ['src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontSize: {
-      sm: '0.8rem',
+      xsm: '0.4rem',
+      sm: '0.9rem',
       base: '1.15rem',
       xl: '1.25rem',
       '2xl': '1.563rem',

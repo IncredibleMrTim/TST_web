@@ -2,12 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.hBase {
+  @apply font-bold text-tst-primary-text-gray !font-serif py-5;
+}
+
 h1 {
-  @apply !text-4xl font-bold text-tst-primary-text-gray font-serif py-5;
+  @apply !text-4xl hBase;
 }
 
 h2 {
-  @apply !text-2xl font-bold text-tst-primary-text-gray font-serif py-5;
+  @apply !text-2xl hBase;
+}
+
+h3 {
+  @apply !text-xl hBase;
 }
 
 p {
