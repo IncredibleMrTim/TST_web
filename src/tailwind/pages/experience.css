@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-h2 {
-  @apply text-xl font-bold text-left;
-  font-family: 'font-roboto-regular';
-}
-
 p {
   @apply text-base text-left;
 }

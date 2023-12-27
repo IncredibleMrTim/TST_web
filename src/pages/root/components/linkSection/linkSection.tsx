@@ -1,4 +1,4 @@
-import { experience, skills, qualifications } from "@/assets/svg";
+import { experience, skills } from "@/assets/svg";
 import { LinkCard } from "./linkCard";
 import { useTranslation } from "react-i18next";
 
@@ -13,12 +13,6 @@ export const LinkSection = () => {
           description={t("linkSection.experience-description")}
           link="/experience"
           image={experience}
-        />
-        <LinkCard
-          title={t("linkSection.qualifications-title")}
-          description={t("linkSection.qualifications-description")}
-          link="/Qualifications"
-          image={qualifications}
         />
         <LinkCard
           title={t("linkSection.skills-title")}

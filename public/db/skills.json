@@ -1,0 +1,58 @@
+[
+  {
+    "title": "JavaScript (ES5/6/7/8)",
+    "description": "",
+    "years": 10,
+    "type": "dev"
+  },
+  {
+    "title": "TypeScript",
+    "description": "Having immersed myself in TypeScript for the past 2.5 years, I've gained confidence in its use, understanding concepts such as inference, generics, interfaces, types, and many others. While I may not be as advanced as some, my journey involves navigating the language to enhance code reliability and efficiency. I strive to leverage TypeScript's features for better software design and am committed to continuous improvement in my skills.",
+    "years": 2,
+    "type": "dev"
+  },
+  { "title": "ReactJs", "description": "", "years": 9, "type": "dev" },
+  { "title": "React Hooks", "description": "", "years": 6, "type": "dev" },
+  { "title": "React Native", "description": "", "years": 1, "type": "dev" },
+  { "title": "AWS", "description": "", "years": 1, "type": "dev" },
+  { "title": "CSS", "description": "", "years": 15, "type": "dev" },
+  { "title": "HTML", "description": "", "years": 15, "type": "dev" },
+  { "title": "SQL", "description": "", "years": 5, "type": "dev" },
+  { "title": "Cucumber", "description": "", "years": 1, "type": "dev" },
+  { "title": "Cypress", "description": "", "years": 1, "type": "dev" },
+  { "title": "JEST", "description": "", "years": 8, "type": "dev" },
+  { "title": "Node", "description": "", "years": 0.5, "type": "dev" },
+  { "title": "NPM/YARN", "description": "", "years": 8, "type": "dev" },
+  { "title": "VSCode", "description": "", "years": 8, "type": "dev" },
+  { "title": "Photoshop", "description": "", "years": null, "type": "design" },
+  { "title": "Gimp", "description": "", "years": null, "type": "design" },
+  { "title": "Figma", "description": "", "years": null, "type": "design" },
+  { "title": "Jira", "description": "", "years": 7, "type": "planning" },
+  { "title": "Confluence", "description": "", "years": 7, "type": "planning" },
+  { "title": "Trello", "description": "", "years": 7, "type": "planning" },
+  {
+    "title": "Most Microsoft packages",
+    "description": "",
+    "years": null,
+    "type": "dev"
+  },
+  {
+    "title": "Can work with both Mac and Windows machines",
+    "description": "",
+    "years": null,
+    "type": "dev"
+  },
+  { "title": "BDD", "description": "", "years": 2, "type": "dev" },
+  { "title": "Leadership", "description": "", "years": 1, "type": "soft" },
+  { "title": "Mentoring", "description": "", "years": 3, "type": "soft" },
+  { "title": "Communication", "description": "", "years": 3, "type": "soft" },
+  { "title": "Agile", "description": "", "years": 5, "type": "planning" },
+  {
+    "title": "SOLID/KISS/DRY/YAGNI",
+    "description": "",
+    "years": 5,
+    "type": "planning"
+  },
+  { "title": "Scrum", "description": "", "years": 5, "type": "planning" },
+  { "title": "Kanban", "description": "", "years": 5, "type": "planning" }
+]

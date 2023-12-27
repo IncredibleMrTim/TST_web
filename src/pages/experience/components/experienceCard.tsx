@@ -9,7 +9,7 @@ export const ExperienceCard = ({ ...props }: TExperience) => {
 
   return (
     <div>
-      <h2 className="text pb-0">
+      <h2 className="text-left pb-0">
         {title} - {company}
       </h2>
 
@@ -25,7 +25,7 @@ export const ExperienceCard = ({ ...props }: TExperience) => {
         {jobType && <span> ({jobType})</span>}
       </p>
       <p className="mb-8">{description}</p>
-      <h3 className="text-left font-bold">{t("pages.experience.techStack")}</h3>
+      <h3 className="text-left pb-0">{t("pages.experience.techStack")}</h3>
       <p className="!text-sm">
         {Array.isArray(techStack) && techStack.toString().replace(/,/g, ", ")}
       </p>

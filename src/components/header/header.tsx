@@ -6,9 +6,8 @@ export const Header = () => {
   const navList = () => (
     <ul className="mb-4 mt-2 flex flex-col gap-3 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-8">
       <NavItem label="Home" to="/" />
-      <NavItem label="Experience" to="/experience" />
-      <NavItem label="Qualifications" to="/qualifications" />
-      <NavItem label="Skills" to="/skills" />
+      <NavItem label="Experience & Qualifications" to="/experience" />
+      <NavItem label="Skills & Technology" to="/skills" />
     </ul>
   );
 
@@ -20,7 +19,7 @@ export const Header = () => {
       <div className="container mx-auto flex items-center justify-between">
         <Navbar
           fullWidth={true}
-          className="flex justify-center bg-tst-primary-slate text-tst-primary-white"
+          className="flex justify-around bg-tst-primary-slate text-tst-primary-white"
         >
           {navList()}
         </Navbar>
