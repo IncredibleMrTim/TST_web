@@ -6,6 +6,8 @@ export default {
     fontSize: {
       xsm: '0.4rem',
       sm: '0.9rem',
+      '1sm': '1rem',
+      '2sm': '1.1rem',
       base: '1.15rem',
       xl: '1.25rem',
       '2xl': '1.563rem',
@@ -15,6 +17,7 @@ export default {
     },
     colors: {
       'tst-primary-red': '#ff0000',
+      'tst-primary-gray-darker': '#222',
       'tst-primary-gray-dark': '#444',
       'tst-primary-gray-light': '#CCC',
       'tst-primary-beige-lighter': '#F9F9F9',
@@ -24,6 +27,7 @@ export default {
       'tst-primary-slate-light': '#0f9bcf',
       'tst-primary-slate-lighter': '#ADC4CE',
       'tst-primary-white': '#fff',
+      'tst-primary-black': '#000',
       'tst-primary-text-gray': '#626262',
     },
     extend: {},
