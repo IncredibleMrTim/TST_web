@@ -1,7 +1,7 @@
 [
   {
     "title": "JavaScript (ES5/6/7/8)",
-    "description": "",
+    "description": "As a Senior React Frontend Developer, I showcase mastery in JavaScript through seamless development with ReactJS. Notably, I've contributed significantly to projects using React and TypeScript, highlighting my deep understanding of JavaScript technologies and agile methodologies.",
     "years": 10,
     "type": "dev"
   },
@@ -11,48 +11,102 @@
     "years": 2,
     "type": "dev"
   },
-  { "title": "ReactJs", "description": "", "years": 9, "type": "dev" },
-  { "title": "React Hooks", "description": "", "years": 6, "type": "dev" },
-  { "title": "React Native", "description": "", "years": 1, "type": "dev" },
-  { "title": "AWS", "description": "", "years": 1, "type": "dev" },
-  { "title": "CSS", "description": "", "years": 15, "type": "dev" },
-  { "title": "HTML", "description": "", "years": 15, "type": "dev" },
-  { "title": "SQL", "description": "", "years": 5, "type": "dev" },
-  { "title": "Cucumber", "description": "", "years": 1, "type": "dev" },
-  { "title": "Cypress", "description": "", "years": 1, "type": "dev" },
-  { "title": "JEST", "description": "", "years": 8, "type": "dev" },
-  { "title": "Node", "description": "", "years": 0.5, "type": "dev" },
-  { "title": "NPM/YARN", "description": "", "years": 8, "type": "dev" },
-  { "title": "VSCode", "description": "", "years": 8, "type": "dev" },
-  { "title": "Photoshop", "description": "", "years": null, "type": "design" },
-  { "title": "Gimp", "description": "", "years": null, "type": "design" },
-  { "title": "Figma", "description": "", "years": null, "type": "design" },
+  {
+    "title": "ReactJs",
+    "description": "With extensive expertise in ReactJS and React Hooks, I've made significant contributions to diverse projects. From seamless React development to impactful solutions, my experience showcases a deep understanding of these technologies, ensuring successful outcomes across various domains.",
+    "years": 9,
+    "type": "dev"
+  },
+
+  {
+    "title": "React Native",
+    "description": "I utilized React Native, including earlier versions, during my tenure as a Senior Frontend Software Engineer at LexisNexis Risk Solutions. This involved developing mobile telematics apps, showcasing adaptability and proficiency in diverse technologies for robust mobile applications.",
+    "years": 1,
+    "type": "dev"
+  },
+  {
+    "title": "AWS",
+    "description": "I gained exposure to AWS technologies during my role as a Senior Frontend ReactJS Developer at MDRxTech, Mishcon de Reya Group. While my knowledge is limited, I have a practical grasp, contributing to projects like the CSX Carbon Capture. Additionally, I apply AWS in my current private company's web development.",
+    "years": 1,
+    "type": "dev"
+  },
+  {
+    "title": "CSS",
+    "description": "I have demonstrated a very strong proficiency in CSS throughout my career, ensuring visually appealing and responsive user interfaces in past roles. Acknowledging its vast scope, I continue to leverage a very strong command of CSS in my current projects, emphasizing aesthetic design and a seamless user experience.",
+    "years": 15,
+    "type": "dev"
+  },
+  {
+    "title": "HTML",
+    "description": "I've consistently demonstrated a strong command of HTML throughout my career, crafting structurally sound and accessible web content in past roles. Acknowledging its foundational importance, my expertise in HTML remains robust, as I continue to prioritize its use in current projects for building solid and effective web solutions.",
+    "years": 15,
+    "type": "dev"
+  },
+  {
+    "title": "SQL",
+    "description": "I have exhibited a strong command of SQL throughout my career, adept at designing and optimizing database structures in past roles. While SQL was a main focus, my current emphasis has shifted, and I maintain a solid understanding. Even though it's no longer my primary focus, I apply SQL knowledge when needed in current projects.",
+    "years": 5,
+    "type": "dev"
+  },
+  {
+    "title": "Cypress/Cucumber",
+    "description": "I have previously demonstrated proficiency in utilizing Cucumber and Cypress for behavior-driven development and end-to-end testing in my earlier roles. While these tools were central to my focus at that time, I maintain a strong understanding of their capabilities. Although not my primary focus now, I can still integrate Cucumber and Cypress into projects when required.",
+    "years": 1,
+    "type": "dev"
+  },
+  {
+    "title": "JEST/VITest",
+    "description": "As a seasoned Senior React Frontend Developer, I specialize in JEST and VITest for rigorous testing in ReactJS projects. Proficient in these tools, I ensure seamless development by crafting innovative solutions and delivering excellence through thorough testing practices.",
+    "years": 8,
+    "type": "dev"
+  },
+  {
+    "title": "Node",
+    "description": "As a Senior Frontend Developer, I'm actively enhancing my proficiency in Node, acknowledging its limited scope in my current skill set. I contribute to projects with a commitment to continuous improvement, ensuring robust testing practices and seamless development.",
+    "years": 0.5,
+    "type": "dev"
+  },
+  {
+    "title": "NPM/YARN",
+    "description": "Proficient in NPM and Yarn, I am able to managed project dependencies in my development. Leveraging these package managers, I ensure efficient development workflows, contributing to the success of diverse projects with a keen focus on streamlined package management and development efficiency.",
+    "years": 8,
+    "type": "dev"
+  },
+  {
+    "title": "VSCode",
+    "description": "As an experienced Developer, I proficiently utilize VSCode, an IDE, to optimize development workflows. Comfortable with plugins and command line tools, my expertise in VSCode enhances coding practices, contributing to diverse projects with precision and efficiency.",
+    "years": 8,
+    "type": "dev"
+  },
+  {
+    "title": "Photoshop/GIMP",
+    "description": "At an intermediate level in Photoshop and GIMP, I collaborate effectively with UX designers, integrating design elements seamlessly into projects as a Developer. While proficient in design tasks, my primary expertise lies in coding and development for a cohesive end product.",
+    "years": null,
+    "type": "design"
+  },
+  {
+    "title": "Figma",
+    "description": "Utilizing robust Figma skills, I collaborate seamlessly with UX designers, infusing design elements into projects as a Developer. Proficient in design tasks, my primary commitment lies in coding and development, ensuring the integration of visually appealing and user-centric designs for the final product.",
+    "years": null,
+    "type": "design"
+  },
   { "title": "Jira", "description": "", "years": 7, "type": "planning" },
   { "title": "Confluence", "description": "", "years": 7, "type": "planning" },
   { "title": "Trello", "description": "", "years": 7, "type": "planning" },
-  {
-    "title": "Most Microsoft packages",
-    "description": "",
-    "years": null,
-    "type": "dev"
-  },
-  {
-    "title": "Can work with both Mac and Windows machines",
-    "description": "",
-    "years": null,
-    "type": "dev"
-  },
-  { "title": "BDD", "description": "", "years": 2, "type": "dev" },
+
   { "title": "Leadership", "description": "", "years": 1, "type": "soft" },
   { "title": "Mentoring", "description": "", "years": 3, "type": "soft" },
   { "title": "Communication", "description": "", "years": 3, "type": "soft" },
-  { "title": "Agile", "description": "", "years": 5, "type": "planning" },
+  {
+    "title": "Agile/SCRUM/KANBAN",
+    "description": "",
+    "years": 5,
+    "type": "planning"
+  },
   {
     "title": "SOLID/KISS/DRY/YAGNI",
     "description": "",
     "years": 5,
     "type": "planning"
-  },
-  { "title": "Scrum", "description": "", "years": 5, "type": "planning" },
-  { "title": "Kanban", "description": "", "years": 5, "type": "planning" }
+  }
 ]

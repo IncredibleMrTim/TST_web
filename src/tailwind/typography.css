@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .hBase {
-  @apply font-bold text-tst-primary-text-gray font-serif py-5;
+  @apply flex font-bold text-tst-primary-text-gray font-serif py-5 justify-start;
 }
 
 h1 {
@@ -16,6 +16,10 @@ h2 {
 
 h3 {
   @apply !text-xl hBase;
+}
+
+h4 {
+  @apply !text-base hBase;
 }
 
 p {

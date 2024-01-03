@@ -1,14 +1,18 @@
-import * as HIcons from "@heroicons/react/24/outline";
+import * as HIconsOutline from "@heroicons/react/24/outline";
+import * as HIconsSolid from "@heroicons/react/24/solid";
 import { ReactElement } from "react";
 
 interface IconProps {
   icon: string;
+  variant?: "outline" | "solid";
   className?: string;
 }
 
 export const Icon = (props: IconProps): ReactElement => {
-  const { icon, className } = props;
-  const { ...icons } = HIcons;
+  const { icon, className, variant } = props;
+  let { ...icons } = {};
+  icons = variant === "outline" ? HIconsOutline : HIconsSolid;
+
   const DynamicIcon = icons[icon];
 
   // left in for reference

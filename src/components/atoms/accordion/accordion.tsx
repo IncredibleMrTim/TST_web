@@ -10,17 +10,23 @@ import {
 interface AccordionProps {
   open?: boolean;
   title: string;
+  icon?: string;
   children: React.ReactNode;
 }
 
 export const Accordion = (props: AccordionProps) => {
-  const { open, children, title } = props;
+  const { open, children, title, icon } = props;
   const [accordionOpen, setAccordionOpen] = useState(open ?? false);
 
   const renderHeading = () => {
     return (
       <div className="flex justify-between mx-auto ">
-        <h3 className="text-tst-primary-black/80">{title}</h3>
+        <h3 className="text-tst-primary-black/80 flex w-full gap-5">
+          {icon && (
+            <Icon icon={icon} className="w-7 h-70 text-tst-primary-white/60" />
+          )}
+          {title}
+        </h3>
         <Icon
           className="text-tst-primary-gray-dark w-6 h-70"
           icon={`${accordionOpen ? `ChevronDownIcon` : `ChevronUpIcon`}`}
