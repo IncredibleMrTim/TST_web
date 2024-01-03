@@ -11,5 +11,8 @@ export const Icon = (props: IconProps): ReactElement => {
   const { ...icons } = HIcons;
   const DynamicIcon = icons[icon];
 
+  // left in for reference
+  // console.log(icons);
+
   return <DynamicIcon className={className} />;
 };
