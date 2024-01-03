@@ -25,11 +25,11 @@ export const Accordion = (props: AccordionProps) => {
           {icon && (
             <Icon icon={icon} className="w-7 h-70 text-tst-primary-white/60" />
           )}
-          {title}
+          <div className="text-tst-primary-white/90">{title}</div>
         </h3>
         <Icon
-          className="text-tst-primary-gray-dark w-6 h-70"
-          icon={`${accordionOpen ? `ChevronDownIcon` : `ChevronUpIcon`}`}
+          className="text-tst-primary-white/60 w-6 h-70"
+          icon={`${accordionOpen ? `ChevronUpIcon` : `ChevronDownIcon`}`}
         />
       </div>
     );
@@ -39,7 +39,13 @@ export const Accordion = (props: AccordionProps) => {
     <div>
       <TWAccordion className="overflow-y-hidden accordion" open={accordionOpen}>
         <AccordionHeader onClick={() => setAccordionOpen(!accordionOpen)}>
-          <div className="w-full bg-tst-primary-slate-lighter rounded-t-md px-8 border-tst-primary-slate-light/5 border-t-2 border-x-2 accordionHeader">
+          <div
+            className={`${
+              accordionOpen
+                ? `transition: rounded-b-none bg-tst-primary-red-dark/80 duration-300`
+                : `transition: rounded-b-md bg-tst-primary-red-dark/60 duration-300`
+            } w-full  rounded-t-md px-8 border-tst-primary-red/10 border-t-[1px] border-x-[1px] accordionHeader`}
+          >
             {renderHeading()}
           </div>
         </AccordionHeader>

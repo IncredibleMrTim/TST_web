@@ -14,9 +14,9 @@ export const Experience = () => {
   return (
     <PageWrapper>
       <div>
-        <div className="bg-tst-primary-slate-lighter h-36 mb-14 rounded-t-xl px-6 pt-6 flex col">
+        <div className="bg-tst-primary-red-dark/80 h-36 mb-14 rounded-t-xl px-6 pt-6 flex col">
           <img src={profile} className="rounded-xl h-40" />
-          <p className="w-full text-justify px-10 h-full flex italic !text-1sm text-tst-primary-black/80">
+          <p className="w-full text-justify px-10 h-full flex italic !text-1sm text-tst-primary-white/90">
             {t("pages.experience.summary")}
           </p>
         </div>

@@ -17,6 +17,7 @@ export default {
     },
     colors: {
       'tst-primary-red': '#ff0000',
+      'tst-primary-red-dark': '#c80A0A',
       'tst-primary-gray-darker': '#222',
       'tst-primary-gray-dark': '#444',
       'tst-primary-gray-light': '#CCC',

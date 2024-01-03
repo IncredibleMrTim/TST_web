@@ -11,7 +11,7 @@ export const NavButton = ({ to, children }: NavButtonProps) => {
 
   return (
     <Button
-      className="flex items-center gap-1.5 py-2 px-5 font-normal hover:bg-tst-primary-slate-dark"
+      className="flex items-center gap-1.5 py-2 px-5 !my-0 font-normal transition: hover:bg-tst-primary-gray-light/20 duration-300 rounded-sm border-tst-primary-white"
       role="button"
       onClick={() => navigate(to)}
     >

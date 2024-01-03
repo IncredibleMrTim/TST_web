@@ -13,13 +13,14 @@ export const Header = () => {
 
   return (
     <div className="w-full h-1/5 flax flex-row">
-      <div className="flex justify-center items-center h-full py-5">
+      <div className="flex justify-center items-center h-full py-8 bg-gradient-to-b from-tst-primary-slate-lighter to-tst-primary-slate-lighter/15 to-tst-primary-gray-lighter ">
         <img src={tstLogo} className="h-3/4" />
       </div>
+
       <div className="container mx-auto flex items-center justify-between">
         <Navbar
           fullWidth={true}
-          className="flex justify-around bg-tst-primary-slate text-tst-primary-white"
+          className="flex justify-around text-tst-primary-gray-dark border-[1px] border-tst-primary-gray-dark/10 bg-tst-primary-gray-light/10"
         >
           {navList()}
         </Navbar>

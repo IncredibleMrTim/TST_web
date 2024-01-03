@@ -8,7 +8,7 @@ export const Root = () => {
   const { t } = useTranslation();
 
   return (
-    <div>
+    <div className="overflow-scroll h-screen">
       <div className="py-5">
         <Carousel images={carouselLogos} />
       </div>

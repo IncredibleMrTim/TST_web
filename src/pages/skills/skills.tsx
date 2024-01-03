@@ -3,7 +3,7 @@ import lodash from "lodash";
 import { Accordion } from "@/components/atoms/accordion/accordion";
 import { PageWrapper } from "@/components/pageWrapper/pageWrapper";
 import { useTranslation } from "react-i18next";
-
+import { skills } from "@/assets/svg";
 export const Skills = () => {
   const { data } = useApi<TSkills[]>("http://localhost:9000/db/skills.json");
   const { t } = useTranslation();
@@ -31,29 +31,34 @@ export const Skills = () => {
   ];
 
   return (
-    <PageWrapper>
-      {Object.keys(groupedData).map((groupType, i) => {
-        return (
-          <div className="mb-5">
-            <Accordion
-              title={t(`pages.skills.type.${groupType}`)}
-              icon={groupIcons.find((icon) => icon.type === groupType)?.icon}
-              open={i === 0}
-            >
-              {groupedData[groupType]
-                .sort((a, b) => a.type.localeCompare(b.type))
-                .map((skill) => {
-                  return (
-                    <div className="flex flex-col !left">
-                      <h4>{skill.title}</h4>
-                      <p>{skill.description}</p>
-                    </div>
-                  );
-                })}
-            </Accordion>
-          </div>
-        );
-      })}
-    </PageWrapper>
+    <div>
+      <div className="h-[15em] flex flex-col content-evenly overflow-y-hidden opacity-80 w-full">
+        <img src={skills} className="w-full object-cover" />
+      </div>
+      <PageWrapper>
+        {Object.keys(groupedData).map((groupType, i) => {
+          return (
+            <div className="mb-5">
+              <Accordion
+                title={t(`pages.skills.type.${groupType}`)}
+                icon={groupIcons.find((icon) => icon.type === groupType)?.icon}
+                open={i === 0}
+              >
+                {groupedData[groupType]
+                  .sort((a, b) => a.type.localeCompare(b.type))
+                  .map((skill) => {
+                    return (
+                      <div className="flex flex-col">
+                        <h4>{skill.title}</h4>
+                        <p>{skill.description}</p>
+                      </div>
+                    );
+                  })}
+              </Accordion>
+            </div>
+          );
+        })}
+      </PageWrapper>
+    </div>
   );
 };
