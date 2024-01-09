@@ -5,7 +5,9 @@ import { PageWrapper } from "@/components/pageWrapper/pageWrapper";
 import { useTranslation } from "react-i18next";
 import { skills } from "@/assets/svg";
 export const Skills = () => {
-  const { data } = useApi<TSkills[]>("http://localhost:9000/db/skills.json");
+  const { data } = useApi<TSkills[]>(
+    `${import.meta.env.VITE_BASE_URL}/db/experience.json`,
+  );
   const { t } = useTranslation();
 
   // group data by type
