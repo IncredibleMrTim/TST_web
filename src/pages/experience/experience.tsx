@@ -8,7 +8,7 @@ import { useApi } from "@/hooks/useApi";
 export const Experience = () => {
   const { t } = useTranslation();
   const { data } = useApi<TExperience[]>(
-    "http://localhost:9000/db/experience.json",
+    `${import.meta.env.VITE_BASE_URL}/db/experience.json`,
   );
 
   return (

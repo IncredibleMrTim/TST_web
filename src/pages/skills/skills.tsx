@@ -5,7 +5,9 @@ import { PageWrapper } from "@/components/pageWrapper/pageWrapper";
 import { useTranslation } from "react-i18next";
 import { skills } from "@/assets/svg";
 export const Skills = () => {
-  const { data } = useApi<TSkills[]>("http://localhost:9000/db/skills.json");
+  const { data } = useApi<TSkills[]>(
+    `${import.meta.env.VITE_BASE_URL}/db/skills.json`,
+  );
   const { t } = useTranslation();
 
   // group data by type
@@ -38,7 +40,7 @@ export const Skills = () => {
       <PageWrapper>
         {Object.keys(groupedData).map((groupType, i) => {
           return (
-            <div className="mb-5">
+            <div className="mb-5" key={groupType}>
               <Accordion
                 title={t(`pages.skills.type.${groupType}`)}
                 icon={groupIcons.find((icon) => icon.type === groupType)?.icon}
@@ -48,7 +50,7 @@ export const Skills = () => {
                   .sort((a, b) => a.type.localeCompare(b.type))
                   .map((skill) => {
                     return (
-                      <div className="flex flex-col">
+                      <div className="flex flex-col" key={skill.title}>
                         <h4>{skill.title}</h4>
                         <p>{skill.description}</p>
                       </div>

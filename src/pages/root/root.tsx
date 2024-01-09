@@ -9,7 +9,7 @@ export const Root = () => {
 
   return (
     <div className="overflow-scroll h-screen">
-      <div className="py-5">
+      <div className="py-5 sm: hidden">
         <Carousel images={carouselLogos} />
       </div>
       <div className="w-full">
