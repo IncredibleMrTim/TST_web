@@ -1,7 +1,7 @@
 @import './typography.css';
 @import './header.css';
 @import './pages/experience.css';
-@import './pages/skills.css';
+@import './pages/technology.css';
 @import './accordion.css';
 
 @tailwind base;
