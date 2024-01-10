@@ -4,8 +4,7 @@ import App from "@/App";
 import { ErrorPage } from "@/pages/errorPage/errorPage";
 import { Root } from "@/pages/root/root";
 import { Experience } from "@/pages/experience/experience";
-import { Skills } from "@/pages/skills/skills";
-import { Qualifications } from "@/pages/qualifications/qualifications";
+import { Technology } from "@/pages/technology/technology";
 
 export const router = createBrowserRouter([
   {
@@ -17,16 +16,12 @@ export const router = createBrowserRouter([
         element: <Root />,
       },
       {
-        path: "/skills",
-        element: <Skills />,
+        path: "/technology",
+        element: <Technology />,
       },
       {
         path: "/experience",
         element: <Experience />,
-      },
-      {
-        path: "/qualifications",
-        element: <Qualifications />,
       },
     ],
   },

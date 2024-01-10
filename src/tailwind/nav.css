@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navItem {
+  @apply flex items-center gap-1.5 py-2 px-5 font-normal hover:bg-tst-primary-slate-dark;
+}
