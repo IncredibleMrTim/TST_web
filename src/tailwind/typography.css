@@ -7,15 +7,15 @@
 }
 
 h1 {
-  @apply !text-4xl hBase;
+  @apply xsm:!text-3xl md:!text-4xl hBase;
 }
 
 h2 {
-  @apply !text-2xl hBase;
+  @apply xsm:!text-lg md:!text-2xl hBase;
 }
 
 h3 {
-  @apply !text-xl hBase;
+  @apply xsm:!text-base md:!text-xl hBase;
 }
 
 h4 {
@@ -23,6 +23,6 @@ h4 {
 }
 
 p {
-  @apply !text-base text-tst-primary-text-gray;
+  @apply xsm:!text-1sm md:!text-base text-tst-primary-text-gray;
   font-family: 'font-roboto-light';
 }

@@ -7,7 +7,7 @@ export const LinkSection = () => {
 
   return (
     <div>
-      <div className="w-full px-24 mt-10 flex justify-between gap-8">
+      <div className="xsm:px-4 xsm:flex-col md:flex-row md:px-24 w-full mt-10 flex justify-between gap-8">
         <LinkCard
           title={t("linkSection.experience-title")}
           description={t("linkSection.experience-description")}

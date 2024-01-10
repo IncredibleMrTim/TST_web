@@ -8,7 +8,8 @@
     "experience": {
       "dateFromTo": "{{from}} - {{to}}",
       "techStack": "Tech Stack",
-      "summary": "Experienced Lead/Senior Software Engineer with a demonstrated history of working in the information technology and services      industry. Skilled in ReactJS, JavaScript, Redux and supporting technologies within the Web, Front End and UI development echo system."
+      "summary": "Experienced Lead/Senior Software Engineer with a demonstrated history of working in the information technology and services      industry. Skilled in ReactJS, JavaScript, Redux and supporting technologies within the Web, Front End and UI development echo system.",
+      "summaryMobile": "Experienced Lead/Senior Software Engineer."
     },
     "skills": {
       "type": {
@@ -26,5 +27,10 @@
     "skills-description": "Starting with earlier versions of .NET in 2008 and evolving through SQL, Vanilla JavaScript, React and working with Agile and TDD methodologies.",
     "qualifications-title": "Qualifications",
     "qualifications-description": "BSC(Hons) Software Engineering Internet Application Development from Southampton Solent University."
+  },
+  "nav": {
+    "home": "Home",
+    "experience": "Experience",
+    "technology": "Technology"
   }
 }
