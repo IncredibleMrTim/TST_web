@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 import { skills } from "@/assets/svg";
 export const Skills = () => {
   const { data } = useApi<TSkills[]>(
-    `${import.meta.env.VITE_BASE_URL}/db/experience.json`,
+    `${import.meta.env.VITE_BASE_URL}/db/skills.json`,
   );
   const { t } = useTranslation();
 
