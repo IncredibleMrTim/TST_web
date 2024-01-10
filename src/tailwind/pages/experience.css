@@ -5,3 +5,21 @@
 p {
   @apply text-base text-left;
 }
+
+.experience-heading {
+  @apply bg-tst-primary-red-dark/80 h-36 mb-14 rounded-t-xl px-6 pt-6 flex;
+}
+
+.experience-heading p {
+  @apply w-full text-justify px-10 h-full flex italic  text-tst-primary-white/90 !text-2sm;
+}
+
+.experience-body {
+  @apply xsm:px-5 md:px-24;
+}
+
+/* Mobile specific */
+
+.experience-accordion-mobile {
+  @apply border-b-2 border-tst-primary-gray-dark/10 pb-5;
+}

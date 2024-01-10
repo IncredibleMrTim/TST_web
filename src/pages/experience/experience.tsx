@@ -31,16 +31,16 @@ export const Experience = () => {
     <PageWrapper>
       <h1>Experience</h1>
       <div>
-        <div className="bg-tst-primary-red-dark/80 h-36 mb-14 rounded-t-xl px-6 pt-6 flex col">
+        <div className="experience-heading">
           <img src={profile} className="rounded-xl h-40" />
-          <p className="w-full text-justify px-10 h-full flex italic  text-tst-primary-white/90 !text-2sm">
+          <p>
             {isMobile
               ? t("pages.experience.summaryMobile")
               : t("pages.experience.summary")}
           </p>
         </div>
       </div>
-      <div className="xsm:px-5 md:px-24">
+      <div className="experience-body">
         {data?.map((experience: TExperience, i) => {
           return (
             <>
@@ -52,8 +52,7 @@ export const Experience = () => {
                   <div
                     key={experience.title}
                     className={`${
-                      data.length - 1 > i &&
-                      "border-b-2 border-tst-primary-gray-dark/10 pb-5"
+                      data.length - 1 > i && "experience-accordion-mobile"
                     }`}
                   >
                     {renderExperienceCard(experience)}

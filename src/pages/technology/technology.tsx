@@ -38,8 +38,8 @@ export const Technology = () => {
   return (
     <div>
       {!isMobile && (
-        <div className="h-[15em] flex flex-col content-evenly overflow-y-hidden opacity-80 w-full">
-          <img src={skills} className="w-full object-cover" />
+        <div className="technology-banner">
+          <img src={skills} />
         </div>
       )}
       <PageWrapper>
@@ -56,7 +56,10 @@ export const Technology = () => {
                   .sort((a, b) => a.type.localeCompare(b.type))
                   .map((skill) => {
                     return (
-                      <div className="flex flex-col" key={skill.title}>
+                      <div
+                        className="technology-accordion-body"
+                        key={skill.title}
+                      >
                         <h4>{skill.title}</h4>
                         <p>{skill.description}</p>
                       </div>
