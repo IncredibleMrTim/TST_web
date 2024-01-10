@@ -17,7 +17,7 @@ export const LinkSection = () => {
         <LinkCard
           title={t("linkSection.skills-title")}
           description={t("linkSection.skills-description")}
-          link="/skills"
+          link="/technology"
           image={skills}
         />
       </div>
