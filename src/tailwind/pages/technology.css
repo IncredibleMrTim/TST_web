@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.technology-banner {
+  @apply h-[15em] flex flex-col content-evenly overflow-y-hidden opacity-80 w-full;
+}
+
+.technology-banner img {
+  @apply w-full object-cover;
+}
+
+.technology-accordion-body {
+  @apply flex flex-col;
+}

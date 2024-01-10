@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 
 import App from "@/App";
 import { ErrorPage } from "@/pages/errorPage/errorPage";
-import { Root } from "@/pages/root/root";
+import { Home } from "@/pages/home/home";
 import { Experience } from "@/pages/experience/experience";
 import { Technology } from "@/pages/technology/technology";
 
@@ -13,7 +13,7 @@ export const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Root />,
+        element: <Home />,
       },
       {
         path: "/technology",

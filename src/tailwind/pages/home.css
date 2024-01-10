@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home-container {
+  @apply h-auto;
+}
+
+.home-container .logo-carousel {
+  @apply py-5 xsm:hidden md:block;
+}
+
+.home-body .summary {
+  @apply w-full mt-10 text-left;
+}
+
+.home-body .link-section {
+  @apply sm:hidden md:block;
+}
