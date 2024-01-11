@@ -26,3 +26,8 @@ p {
   @apply xsm:!text-1sm md:!text-base text-tst-primary-text-gray;
   font-family: 'font-roboto-light';
 }
+
+a {
+  @apply xsm:!text-1sm md:!text-base text-tst-primary-text-gray;
+  font-family: 'font-roboto-light';
+}

@@ -67,6 +67,29 @@ export const Header = () => {
           >
             {navList()}
           </Navbar>
+          <div className="fixed bottom-6 w-full border-t-[1px] border-tst-primary-gray">
+            <div className="flex flex-col content-center p-4">
+              <Icon
+                icon="PhoneIcon"
+                className="w-6 h-6 text-tst-primary-black mx-auto mb-2"
+              />
+              <p className="text-center text-tst-primary-black font-bold">
+                07824 153 228
+              </p>
+            </div>
+            <div className="flex flex-col content-center">
+              <a
+                href="mailto:tim.smaty@timsmarttechnology.co.uk"
+                className="text-center text-1sm text-tst-primary-black font-bold"
+              >
+                <Icon
+                  icon="EnvelopeIcon"
+                  className="w-6 h-6 text-tst-primary-black mx-auto mb-2"
+                />
+                tim.smart@timsmarttechnology.co.uk
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </Drawer>
