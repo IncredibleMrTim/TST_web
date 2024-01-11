@@ -74,12 +74,12 @@ export const Header = () => {
                 className="w-6 h-6 text-tst-primary-black mx-auto mb-2"
               />
               <p className="text-center text-tst-primary-black font-bold">
-                07824 153 228
+                (+44) 07824 153 228
               </p>
             </div>
             <div className="flex flex-col content-center">
               <a
-                href="mailto:tim.smaty@timsmarttechnology.co.uk"
+                href="mailto:tim.smart@timsmarttechnology.co.uk"
                 className="text-center text-1sm text-tst-primary-black font-bold"
               >
                 <Icon
