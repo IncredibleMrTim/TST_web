@@ -3,7 +3,6 @@
 @import './pages/home.css';
 @import './pages/experience.css';
 @import './pages/technology.css';
-@import './accordion.css';
 
 @tailwind base;
 @tailwind components;
