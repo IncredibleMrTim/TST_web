@@ -1,7 +1,10 @@
 import type { Config } from 'tailwindcss';
 
 export default {
-  content: ['src/**/*.{js,jsx,ts,tsx}'],
+  content: [
+    'src/**/*.{js,jsx,ts,tsx}',
+    'node_modules/@timsmarttechnology/components/src/**/*.{js,jsx,ts,tsx}',
+  ],
   theme: {
     screens: {
       xsm: '320px',

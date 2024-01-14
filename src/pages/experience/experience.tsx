@@ -4,9 +4,9 @@ import { PageWrapper } from "@/components/pageWrapper/pageWrapper";
 import { profile } from "@/assets/svg";
 import { useTranslation } from "react-i18next";
 import { useApi } from "@/hooks/useApi";
-import { Accordion } from "@/components/atoms/accordion/accordion";
-import { useResponsive } from "@/hooks/useResponsive";
 
+import { useResponsive } from "@/hooks/useResponsive";
+import { Accordion } from "@timsmarttechnology/components";
 export const Experience = () => {
   const { t } = useTranslation();
   const { data } = useApi<TExperience[]>(

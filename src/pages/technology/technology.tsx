@@ -1,12 +1,14 @@
+import { useState } from "react";
 import { useApi } from "@/hooks/useApi";
 import lodash from "lodash";
-import { Accordion } from "@/components/atoms/accordion/accordion";
+import { Accordion } from "@timsmarttechnology/components";
 import { PageWrapper } from "@/components/pageWrapper/pageWrapper";
 import { useTranslation } from "react-i18next";
 import { skills } from "@/assets/svg";
 import { useResponsive } from "@/hooks/useResponsive";
 
 export const Technology = () => {
+  const [accordionOpen, setAccordionOpen] = useState(false);
   const { data } = useApi<TSkills[]>(
     `${import.meta.env.VITE_BASE_URL}/db/skills.json`,
   );
@@ -48,9 +50,10 @@ export const Technology = () => {
           return (
             <div key={groupType}>
               <Accordion
+                onClick={() => setAccordionOpen(!accordionOpen)}
                 title={t(`pages.skills.type.${groupType}`)}
                 icon={groupIcons.find((icon) => icon.type === groupType)?.icon}
-                open={!isMobile && i === 0}
+                open={accordionOpen || i === 0}
               >
                 {groupedData[groupType]
                   .sort((a, b) => a.type.localeCompare(b.type))

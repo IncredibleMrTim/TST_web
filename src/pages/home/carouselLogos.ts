@@ -1,4 +1,4 @@
-import type { CarouselImage } from "./carousel";
+import type { CarouselImage } from "@timsmarttechnology/components";
 import {
   logoCoyote,
   logoLn,

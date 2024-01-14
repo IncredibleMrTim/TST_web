@@ -1,0 +1,6 @@
+@import './header.css';
+@import './pageWrapper.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

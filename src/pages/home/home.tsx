@@ -1,5 +1,5 @@
-import { Carousel } from "@/components/atoms/carousel/carousel";
-import { carouselLogos } from "@/components/atoms/carousel/carouselLogos";
+import { Carousel } from "@timsmarttechnology/components";
+import { carouselLogos } from "./carouselLogos";
 import { bannerTst } from "@/assets/svg";
 import { useTranslation } from "react-i18next";
 import { LinkSection } from "./components/linkSection/linkSection";

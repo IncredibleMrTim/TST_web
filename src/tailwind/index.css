@@ -1,8 +1,6 @@
 @import './typography.css';
-@import './header.css';
-@import './pages/home.css';
-@import './pages/experience.css';
-@import './pages/technology.css';
+@import './components';
+@import './pages';
 
 @tailwind base;
 @tailwind components;

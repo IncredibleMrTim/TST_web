@@ -3,7 +3,7 @@ import { Navbar, Drawer } from "@material-tailwind/react";
 import { NavItem } from "./components/navItem";
 import tstLogo from "/tstLogo.svg";
 import { useResponsive } from "@/hooks/useResponsive";
-import { Icon } from "@/components/atoms/icon/icon";
+import { Icon } from "@timsmarttechnology/components";
 import { useTranslation } from "react-i18next";
 export const Header = () => {
   const [showDrawer, setShowDrawer] = useState(false);
@@ -31,11 +31,13 @@ export const Header = () => {
         onClick={() => isMobile && setShowDrawer(false)}
       >
         {navItems.map((nav) => (
-          <NavItem
-            className="h-full flex items-center font-normal hover:bg-tst-primary-slate-lighter/40"
-            label={nav.label}
-            to={nav.to}
-          />
+          <div key={nav.label}>
+            <NavItem
+              className="h-full flex items-center font-normal hover:bg-tst-primary-slate-lighter/40"
+              label={nav.label}
+              to={nav.to}
+            />
+          </div>
         ))}
       </ul>
     );
@@ -44,6 +46,7 @@ export const Header = () => {
   const renderDesktopNav = () => (
     <div className="container mx-auto flex items-center justify-between">
       <Navbar
+        placeholder={undefined}
         fullWidth={true}
         className="flex py-0 leading-10 justify-around text-tst-primary-gray-dark border-[1px] border-tst-primary-gray-dark/10 bg-tst-primary-gray-light/10"
       >
@@ -54,6 +57,7 @@ export const Header = () => {
 
   const renderMobileNav = () => (
     <Drawer
+      placeholder={undefined}
       open={showDrawer}
       onClose={() => setShowDrawer(false)}
       className={`absolute bg-gradient-to-t from-tst-primary-slate-lighter to-tst-primary-white z-20 drop-shadow-2xl`}
@@ -62,6 +66,7 @@ export const Header = () => {
         <img src={tstLogo} className="xsm: px-10 pt-10 md:h-3/4" />
         <div className="container mx-auto flex justify-between">
           <Navbar
+            placeholder={undefined}
             fullWidth={true}
             className="px-0 text-left flex justify-around text-tst-primary-gray-dark  border-tst-primary-gray-dark/10 bg-tst-primary-gray-light/10"
           >
